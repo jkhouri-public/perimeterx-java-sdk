@@ -1,5 +1,18 @@
 # Change Log
 
+## [v6.2.0](https://github.com/PerimeterX/perimeterx-java-sdk/compare/v6.2.0...HEAD) (2020-08-23) 
+- Support regex values for sensitive-routes configuration 
+
+## [v6.1.5](https://github.com/PerimeterX/perimeterx-java-sdk/compare/v6.1.5...HEAD) (2020-05-13) 
+- Fixed 3rd party libs vulnerability issues 
+
+## [v6.1.4](https://github.com/PerimeterX/perimeterx-java-sdk/compare/v6.1.4...HEAD) (2020-03-04)
+- Log exception information on deserialize by cookie selector 
+- Fixed vulnerability issue by upgrading FasterXML version 
+
+## [v6.1.3](https://github.com/PerimeterX/perimeterx-java-sdk/compare/v6.1.3...HEAD) (2020-02-24)
+- fix PBKDF2 iterations range check to be greater than 0
+
 ## [v6.1.2](https://github.com/PerimeterX/perimeterx-java-sdk/compare/v6.1.2...HEAD) (2019-09-29)
 - Fix potential concurrency problems within activity buffer
 - Increase default activities batch size from 10 to 20
